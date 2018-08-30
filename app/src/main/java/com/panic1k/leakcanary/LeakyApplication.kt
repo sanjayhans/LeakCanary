@@ -4,7 +4,7 @@ import android.app.Application
 import com.squareup.leakcanary.LeakCanary
 import com.squareup.leakcanary.RefWatcher
 
-class LeakApplication : Application() {
+class LeakyApplication : Application() {
 
     var refwatcher: RefWatcher? = null
 
